@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg1"
+    android:orientation="vertical" >
+    
+       <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/top_bg"
+        android:gravity="center"
+        android:text="用户中心"
+        android:textColor="@color/white"
+        android:textSize="24sp" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ViewStub
+                android:id="@+id/login_stub"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout="@layout/login"
+                android:visibility="visible" />
+
+            <ViewStub
+                android:id="@+id/register_stub"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout="@layout/register"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dip"
+                android:gravity="center" >
+
+                <Button
+                    android:id="@+id/btn_login"
+                    android:layout_width="100dip"
+                    android:layout_height="40dip"
+                    android:layout_marginRight="20dip"
+                    android:background="@drawable/top_bg"
+                    android:text="@string/denglu"
+                    android:textColor="@color/white" />
+
+                <Button
+                    android:id="@+id/btn_register"
+                    android:layout_width="100dip"
+                    android:layout_height="40dip"
+                    android:layout_marginLeft="20dip"
+                    android:background="@drawable/top_bg"
+                    android:text="@string/zhuce"
+                    android:textColor="@color/white" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

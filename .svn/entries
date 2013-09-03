@@ -1,0 +1,122 @@
+8
+
+dir
+86
+https://v2.svnspot.com/huichen0000.bluetooth/WisdomCity
+https://v2.svnspot.com/huichen0000.bluetooth
+
+
+
+2013-08-18T02:46:39.648216Z
+61
+huichen0000
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+3cb46c24-31d5-1d0b-0462-4c10784ebda0
+
+.classpath
+file
+
+
+
+
+2013-07-05T09:01:16.147817Z
+190f666332cc550efd902a01024e2762
+2013-07-01T06:59:47.857114Z
+5
+huichen0000
+
+project.properties
+file
+
+
+
+
+2013-07-05T09:01:16.149817Z
+9c57dcdf382c16ec1e6ff4d497fa3a84
+2013-07-01T06:59:47.857114Z
+5
+huichen0000
+
+assets
+dir
+
+.project
+file
+
+
+
+
+2013-07-05T09:01:16.152817Z
+5bd6e13f72daa033a3b7ae37a10704b3
+2013-07-01T06:59:47.857114Z
+5
+huichen0000
+
+proguard-project.txt
+file
+
+
+
+
+2013-07-05T09:01:16.480836Z
+18bfe77c342b4698f1cef19cf8d918e2
+2013-07-01T06:59:47.857114Z
+5
+huichen0000
+
+AndroidManifest.xml
+file
+
+
+
+
+2013-07-26T08:09:10.726207Z
+98f43cbb8831df7bcdf66c8d064f8a13
+2013-07-26T09:11:06.564561Z
+49
+huichen0000
+
+src
+dir
+
+bin
+dir
+
+gen
+dir
+
+libs
+dir
+
+res
+dir
+
+ic_launcher-web.png
+file
+
+
+
+
+2013-07-05T09:01:16.505837Z
+bca8a5efa7f346ceaf1054e44f00202c
+2013-07-01T06:59:47.857114Z
+5
+huichen0000
+has-props
+
+.settings
+dir
+

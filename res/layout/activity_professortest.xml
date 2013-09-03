@@ -1,0 +1,35 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg1"
+    android:orientation="vertical" >
+
+    <include layout="@layout/toplayout_user"/>
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="专家诊断" />
+
+    <EditText
+        android:id="@+id/et_need_info"
+        android:layout_width="fill_parent"
+        android:layout_height="0px" 
+        android:layout_weight="1"
+        android:gravity="top"
+        android:hint="请输入你的需求"
+        android:maxLines="20"
+        android:minLines="12"
+        android:scrollHorizontally="true"
+        android:scrollbars="vertical"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/btn_get_professional_suggestion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:text="获取专家诊断意见" />
+
+</LinearLayout>

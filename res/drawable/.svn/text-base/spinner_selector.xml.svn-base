@@ -1,0 +1,8 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/spinner" android:state_pressed="false"/>
+    <item android:drawable="@drawable/spinner_on" android:state_pressed="true"/>
+    <item android:drawable="@drawable/spinner_on" android:state_focused="true"/>
+    <item android:drawable="@drawable/spinner"/>
+
+</selector>

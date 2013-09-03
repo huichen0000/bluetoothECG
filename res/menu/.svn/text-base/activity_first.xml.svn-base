@@ -1,0 +1,34 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/menu_testsetting"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/testsetting"/>
+    <item
+        android:id="@+id/menu_datamanager"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/datamanager"/>
+    <item
+        android:id="@+id/menu_professortest"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/professortest"/>
+    <item
+        android:id="@+id/menu_xindiantest"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/xindiantest"/>
+    <item
+        android:id="@+id/menu_systemsetting"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/systemsetting"/>
+    <item
+        android:id="@+id/menu_helpinfo"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/helpinfo"/>
+
+</menu>

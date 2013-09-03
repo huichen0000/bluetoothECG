@@ -1,0 +1,77 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg1"
+    android:orientation="vertical" >
+
+    <include layout="@layout/toplayout_user" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:text="xxx的历史数据" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            style="@style/datamanage_tv_style"
+            android:text="" />
+
+        <TextView
+            style="@style/datamanage_tv_style"
+            android:text="测试类型" />
+
+        <TextView
+            style="@style/datamanage_tv_style"
+            android:text="测试时间" />
+
+        <TextView
+            style="@style/datamanage_tv_style"
+            android:text="心率" />
+
+        <TextView
+            style="@style/datamanage_tv_style"
+            android:text="QT间距" />
+
+        <TextView
+            style="@style/datamanage_tv_style"
+            android:text="PR间距" />
+
+        <TextView
+            style="@style/datamanage_tv_style"
+            android:text="原始数据" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/listview_datamanager"
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:cacheColorHint="@color/transparent"
+        android:divider="@color/transparent"
+        android:listSelector="@color/transparent" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:gravity="center_horizontal" >
+
+        <Button
+            android:id="@+id/btn_clear_data"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="清除记录" />
+
+        <Button
+            android:id="@+id/btn_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="返  回" />
+    </LinearLayout>
+
+</LinearLayout>

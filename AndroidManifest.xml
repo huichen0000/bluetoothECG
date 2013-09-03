@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.cz.wisdomcity.ui"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <!-- 连接网络权限 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <!-- 管理wifi网络权限 -->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <!-- 使用存储卡的权限 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <!-- 使用蓝牙的权限 -->
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+	<!-- 屏幕常亮 -->
+    <uses-permission android:name="android.permission.WAKE_LOCK"></uses-permission>
+
+    
+    <application
+        android:name="WisdomCityApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".XdTestActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:screenOrientation="landscape" />
+        <activity android:name=".DataManagerActivity" />
+        <activity android:name=".ProfessorTestActivity" />
+        <activity android:name=".TestSettingActivity" />
+        <activity android:name=".SystemSettingActivity" />
+        <activity android:name=".HelpInfoActivity" />
+        <activity android:name=".PasswordActivity" />
+        <activity
+            android:name=".FirstActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".WaveActivity"
+            android:configChanges="orientation|keyboardHidden" />
+        <activity
+            android:name=".ChangePasswordActivity"
+            android:screenOrientation="landscape" />
+    </application>
+
+</manifest>
